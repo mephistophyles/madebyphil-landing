@@ -1,3 +1,44 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Made By Phil</title>
+    <meta name="author" content="Phil Heijkoop" />
+  </head>
 
-<p>Test to see if I can link to <a href="about.html">about</a></p>
+  <body>
+    <div>
+      <header class="fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 py-5">
+        <div class="container mx-auto px-4 md:px-6 flex items-center justify-between">
+          <a href="/index.html" class="z-10">
+            <div class="font-bold flex items-center gap-2 text-2xl">
+              <span class="text-charcoal-500">Made By Phil</span>
+            </div>
+          </a>
+          <nav class="hidden md:flex items-center gap-8">
+              <a href="/index.html" class="flex items-center gap-1.5 text-charcoal-400 hover:text-charcoal-500 transition-all duration-300 relative group"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house opacity-70 group-hover:opacity-100 transition-opacity" ><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span>Home</span><span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-softBlue-400 group-hover:w-full transition-all duration-300"></span></a>
+              <a href="https://www.madebyphil.substack.com/" class="flex items-center gap-1.5 text-charcoal-400 hover:text-charcoal-500 transition-all duration-300 relative group"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open opacity-70 group-hover:opacity-100 transition-opacity"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg><span>Blog</span><span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-softBlue-400 group-hover:w-full transition-all duration-300"></span></a>
+              <a href="/about.html" class="flex items-center gap-1.5 text-charcoal-400 hover:text-charcoal-500 transition-all duration-300 relative group"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-library-big opacity-70 group-hover:opacity-100 transition-opacity" ><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg><span >About</span><span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-softBlue-400 group-hover:w-full transition-all duration-300"></span></a>
+          </nav>
+          <div class="fixed inset-0 glass-dark bg-opacity-90 flex flex-col items-center justify-center gap-8 transition-all duration-500 md:hidden opacity-0 pointer-events-none">
+              <nav class="flex flex-col items-center gap-6 text-white text-lg">
+                <a href="/index.html" class="flex items-center gap-2 hover:text-softBlue-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span>Home</span></a>
+                <a href="https://www.madebyphil.substack.com/" class="flex items-center gap-2 hover:text-softBlue-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg><span >Blog</span></a>
+                <a href="/about.html" class="flex items-center gap-2 hover:text-softBlue-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-library-big"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span>About</span></a>
+              </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div>
+      <h1>Welcome to Made By Phil!</h1>
+      <p>Below is a list to all my projects. Eventually I may pretty up this page, but for now a list will suffice.</p>
+      <ul>
+        <li><a href="https://www.mokkapi.com">Mokkapi</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+

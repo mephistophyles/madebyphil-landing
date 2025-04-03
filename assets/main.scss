@@ -1,0 +1,21 @@
+---
+---
+@import "minima";  /* Import default minima styling */
+
+/* Your custom overrides */
+.project-hero {
+  height: 150px;
+  overflow: hidden;
+}
+
+.project-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,63 @@
+/* Container for the projects section */
+.projects {
+    padding: 2rem 0;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Grid styling for project cards */
+  .project-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Card styling */
+  .project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Ensure the whole card is clickable */
+  .project-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  /* Hero section (image or colored block) */
+  .project-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Content section for title and description */
+  .project-content {
+    padding: 1rem;
+  }
+  
+  .project-content h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .project-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

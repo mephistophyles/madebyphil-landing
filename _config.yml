@@ -1,0 +1,6 @@
+title: Made By Phil
+email: hello@madebyphil.com
+description: Minimalist personal site for projects, blog posts, and an about page.
+baseurl: ""
+url: "https://www.madebyphil.com"  # your GitHub Pages URL
+theme: minima

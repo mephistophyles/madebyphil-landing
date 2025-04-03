@@ -1,34 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Made By Phil</title>
-    <meta name="author" content="Phil Heijkoop" />
-  </head>
+---
+layout: default
+title: Home
+---
 
-  <body>
-    <div>
-      <header class="fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 py-5">
-        <div class="container mx-auto px-4 md:px-6 flex items-center justify-between">
-          <div class="fixed inset-0 glass-dark bg-opacity-90 flex flex-col items-center justify-center gap-8 transition-all duration-500 md:hidden opacity-0 pointer-events-none">
-              <nav class="flex flex-col items-center gap-6 text-white text-lg">
-                <a href="/index.html" class="flex items-center gap-2 hover:text-softBlue-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span>Home</span></a>
-                <a href="https://madebyphil.substack.com/" class="flex items-center gap-2 hover:text-softBlue-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg><span >Blog</span></a>
-                <a href="/about.html" class="flex items-center gap-2 hover:text-softBlue-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-library-big"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span>About</span></a>
-              </nav>
-          </div>
+<section class="intro">
+  <h1>Welcome to Made By Phil!</h1>
+  <p>Below is a list of my projects. I am trying to make my central hub of content and projects on the web somewhat consistent.</p>
+</section>
+
+<section class="projects">
+  <h2>My Projects</h2>
+  <ul class="project-list">
+    <li class="project-card">
+      <a href="https://www.mokkapi.com" target="_blank" rel="noopener noreferrer">
+        <div class="project-hero">
+          <img src="assets/images/projects/mokkapi-logo.png" alt="Mokkapi logo">
         </div>
-      </header>
-    </div>
-    <div>
-      <h1>Welcome to Made By Phil!</h1>
-      <p>Below is a list to all my projects. Eventually I may pretty up this page, but for now a list will suffice.</p>
-      <ul>
-        <li><a href="https://www.mokkapi.com">Mokkapi</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
-
-
+        <div class="project-content">
+          <h3>Mokkapi</h3>
+          <p>The world's simplest self-hosted API mocking tool.</p>
+        </div>
+      </a>
+    </li>
+    <li class="project-card">
+      <a href="https://madebyphil.substack.com" target="_blank" rel="noopener noreferrer">
+        <div class="project-hero">
+          <img src="assets/images/projects/substack-logo.png" alt="Substack logo">
+        </div>
+        <div class="project-content">
+          <h3>Made By Phil Substack</h3>
+          <p>A place for me to post weekly about my experience building Mokkapi in public.</p>
+        </div>
+      </a>
+    </li>
+    <li class="project-card">
+      <a href="https://buymeacoffee.com/madebyphil" target="_blank" rel="noopener noreferrer">
+        <div class="project-hero">
+          <img src="assets/images/projects/buymeacoffee-logo.png" alt="buymeacoffee logo">
+        </div>
+        <div class="project-content">
+          <h3>Buy Me a Coffee</h3>
+          <p>Just a link to a place where people can support me.</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</section>

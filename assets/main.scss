@@ -3,6 +3,12 @@
 @import "minima";  /* Import default minima styling */
 
 /* Your custom overrides */
+
+.project-card a {
+  display: flex;
+  align-items: center; /* vertically centers the items */
+}
+
 .project-hero {
   height: 150px;
   width: 150px;
@@ -19,4 +25,9 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.project-content {
+  padding: 1rem;
+  flex: 1;
 }

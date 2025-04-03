@@ -7,5 +7,5 @@ theme: minima
 
 header_pages:
   - index.html
-  - blog/index.md
-  - about.md
+  - blog/index.html
+  - about.html

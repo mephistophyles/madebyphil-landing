@@ -4,3 +4,8 @@ description: Minimalist personal site for projects, blog posts, and an about pag
 baseurl: ""
 url: "https://www.madebyphil.com"  # your GitHub Pages URL
 theme: minima
+
+header_pages:
+  - index.html
+  - blog/index.md
+  - about.md

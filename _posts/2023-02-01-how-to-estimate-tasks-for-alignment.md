@@ -18,7 +18,7 @@ Let's start with the discussion around hours vs storypoints.
 
 Atlassian says: Story points are units of measure for expressing an estimate of the overall effort required to fully implement a product backlog item or any other piece of work. Teams assign story points relative to work complexity, the amount of work, and risk or uncertainty.
 
-Asana has a whole article devoted to it, but it comes down to ![this image](https://assets.asana.biz/transform/aedd74ff-0fa8-4767-8a94-3b0a6701c167/inline-story-points-1-2x?io=transform:fill,width:1680&format=webp). https://assets.asana.biz/transform/aedd74ff-0fa8-4767-8a94-3b0a6701c167/inline-story-points-1-2x?io=transform:fill,width:1680&format=webp ie it's a combination of effort, time, complexity and uncertainty.
+Asana has a whole article devoted to it, but it comes down to ![this image](https://assets.asana.biz/transform/aedd74ff-0fa8-4767-8a94-3b0a6701c167/inline-story-points-1-2x?io=transform:fill,width:1680&format=webp).  ie it's a combination of effort, time, complexity and uncertainty.
 
 The Scrum Guide doesn't actually define storypoints. But a main article on the scrum.org blog says: A Story Point is a relative unit of measure, decided upon and used by individual Scrum teams, to provide relative estimates of effort for completing requirements
 

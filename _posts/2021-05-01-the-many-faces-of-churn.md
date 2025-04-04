@@ -4,8 +4,6 @@ title: "The Many Face of Churn"
 date: 2021-05-01
 ---
 
-# The many faces of Churn
-
 Churn is one of the core metrics of any (SaaS) business. It represents a paying customer that will not return. You can calculate churn in a variety of different ways, either by accounts, users, or even dollars. Churn is also inevitable. A certain amount of churn is to be expected, but anything above that becomes a strategic problem. Not only because they represent lost long-term revenue, but because they're often a symptom of a larger problem.
 
 It's easy to think churn is a one-dimensional problem and you should invest in a Customer Success Manager (CSM) to cajole, threaten or sweet talk who threatens to leave. But it's not that simple, churn is often a symptom and finding out what the root cause is can help you better understand what (if anything) you can/should do about it.

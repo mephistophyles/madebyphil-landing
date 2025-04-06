@@ -11,16 +11,12 @@ I've started to build out a comprehensive MBA curriculum with a number of LLM to
 
 <ul>
   {% assign parent_url = page.url %}
+  {{ site.pages }}
   {% for child in site.pages %}
+    {{ child }}
     {% if child.url != page.url and child.url contains parent_url %}
       {%- assign relative_path = child.url | remove: parent_url -%}
       {%- assign segments = relative_path | split: '/' -%}
-      {%- comment -%}
-      For a direct child:
-        - If it's a file (e.g. post5.html), splitting yields a single element.
-        - If it's a folder with an index (e.g. subsection1/), splitting yields two elements
-          where the second is empty.
-      {%- endcomment -%}
       {% if segments.size == 1 or (segments.size == 2 and segments[1] == "") %}
         <li><a href="{{ child.url }}">{{ child.title }}</a></li>
       {% endif %}

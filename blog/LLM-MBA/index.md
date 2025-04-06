@@ -11,9 +11,8 @@ I've started to build out a comprehensive MBA curriculum with a number of LLM to
 
 <ul>
   {% assign parent_url = page.url %}
-  {{ site.pages }}
   {% for child in site.pages %}
-    {{ child }}
+    <li>{{ child.url }} - {{parent_url}} - </li>
     {% if child.url != page.url and child.url contains parent_url %}
       {%- assign relative_path = child.url | remove: parent_url -%}
       {%- assign segments = relative_path | split: '/' -%}

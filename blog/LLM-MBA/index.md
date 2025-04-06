@@ -5,7 +5,7 @@ date: 2025-04-04
 permalink: /blog/llm-mba/
 ---
 
-# {{ post.title }}
+# {{ page.title }}
 
 I've started to build out a comprehensive MBA curriculum with a number of LLM tools. It's hard to validate it for completeness or if it's as comprehensive as it needs to be. So for now my plan is to go through it as I'm learning the material, with a skeptical eye, and update the content here. Feel free to suggest edits in the github repo or by emailing me.
 

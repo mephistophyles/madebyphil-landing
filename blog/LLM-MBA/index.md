@@ -1,0 +1,26 @@
+---
+title: "LLM sourced MBA curriculum"
+layout: post
+date: 2025-04-04
+---
+
+I've started to build out a comprehensive MBA curriculum with a number of LLM tools. It's hard to validate it for completeness or if it's as comprehensive as it needs to be. So for now my plan is to go through it as I'm learning the material, with a skeptical eye, and update the content here. Feel free to suggest edits in the github repo or by emailing me.
+
+<ul>
+  {% assign parent_url = page.url %}
+  {% for child in site.pages %}
+    {% if child.url != page.url and child.url contains parent_url %}
+      {%- assign relative_path = child.url | remove: parent_url -%}
+      {%- assign segments = relative_path | split: '/' -%}
+      {%- comment -%}
+      For a direct child:
+        - If it's a file (e.g. post5.html), splitting yields a single element.
+        - If it's a folder with an index (e.g. subsection1/), splitting yields two elements
+          where the second is empty.
+      {%- endcomment -%}
+      {% if segments.size == 1 or (segments.size == 2 and segments[1] == "") %}
+        <li><a href="{{ child.url }}">{{ child.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>

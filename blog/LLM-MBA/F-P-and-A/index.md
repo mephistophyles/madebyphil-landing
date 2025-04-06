@@ -1,5 +1,5 @@
 ---
-title: FP&A
+title: "FP&A"
 layout: post
 ---
 

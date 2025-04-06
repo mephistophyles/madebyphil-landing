@@ -1,6 +1,6 @@
 ---
-title: Financial and Managerial Accounting
-layout: post
+title: "Financial and Managerial Accounting"
+layout: default
 ---
 
 

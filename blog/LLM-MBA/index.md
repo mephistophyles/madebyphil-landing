@@ -2,7 +2,7 @@
 title: "LLM sourced MBA curriculum"
 layout: default
 date: 2025-04-04
-permalink: /blog/llm-mba/
+permalink: /llm-mba/
 ---
 
 # {{ page.title }}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Not All Channels are Created Equal"
-date: 2025-05-16
+date: 2025-05-14
 ---
 
 Most channels have non-linear characteristics in their evaluation metrics. As a result sometimes it's comparing apples to oranges, and sometimes one of them isn't even a fruit. For simplicity's sake I'll focus just on CAC and ARR. Since many other metrics depend on those or follow similar features, I think those will serve to illustrate my points.
